@@ -47,7 +47,10 @@ Technologies Used: React.js, Tailwind CSS.
 - useNavigate for redirecting after updates.
 - useState for storing input values and error messages.
 - useEffect to fetch current employee details and handle errors.
-- Validates input fields before updating; displays error messages if fields are incomplete or if errors occur during updates.
+
+#### Validation:
+
+Validates input fields before updates and displays error messages for incomplete fields or update errors.
 
   <br/>
   

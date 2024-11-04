@@ -6,7 +6,51 @@
 
 <br/>
 
+### Core functionalities: Create, Read, Update, Delete (CRUD) employee data.
 
+<br/>
+
+### Backend Technologies Used: 
+
+- Java Spring Boot, Spring Data JPA, MySQL.
+
+#### REST API:
+- Adding a new employee (accepts employee object in request body).
+- Retrieving a single employee by ID.
+- Retrieving a list of employees.
+- Updating employee details by ID.
+- Deleting an employee by ID
+
+
+#### Exception Handling:
+
+- Implemented custom exceptions (e.g., EmployeeNotFoundException).
+- Created GlobalExceptionHandler to centralize error management across the application.
+
+
+<br/>
+
+### Frontend
+Technologies Used: React.js, Tailwind CSS.
+
+#### User Interface:
+
+- Built responsive user interfaces.
+- Set up routing with React Router DOM.
+
+#### HTTP Requests:
+
+- Used Axios for sending HTTP requests for various operations (listing, creating, retrieving, updating, deleting employees).
+
+#### Utilizes React hooks:
+- useParams for extracting employee ID from URL.
+- useNavigate for redirecting after updates.
+- useState for storing input values and error messages.
+- useEffect to fetch current employee details and handle errors.
+- Validates input fields before updating; displays error messages if fields are incomplete or if errors occur during updates.
+
+  <br/>
+  
 
 https://github.com/user-attachments/assets/e5eb581c-5130-418a-8b97-0ec798b7a278
 
